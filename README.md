@@ -53,6 +53,9 @@ The analysis draws from operational data supplied by an **AtliQ IT solutions cli
 The main goal of the dashboard is to increase the share of high-performing (A-class) inventory while reducing low-performing (C-class) inventory. It provides managers with quick, clear insights for daily decisions.
 
 ### “Good” and “Bad” Product Filters
+
+![This is the default view](https://github.com/user-attachments/assets/5452338a-7198-4325-952f-dfe19d02829a)
+
 A key feature is the Good/Bad filter buttons based on product categories.
 
 | Filter | What It Shows | Why It Matters | Key Metrics to Watch | Manager Questions Answered |
