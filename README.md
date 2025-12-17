@@ -26,22 +26,28 @@ The analysis draws from operational data supplied by an **AtliQ IT solutions cli
 
 > In case you care about the maths, the process begins by computing the annual usage value $v_i = q_i \times c_i$ for each SKU $i$, where $q_i$ is units sold per year and $c_i$ is cost per unit. SKUs are then sorted in descending order of $v_i$, and the cumulative value $V_k = \sum_{i=1}^{k} v_i$ is calculated along with the cumulative percentage $p_k = \frac{V_k}{V_n} \times 100$, where $n$ is the total number of SKUs. Categories are assigned using thresholds: A for $p_k \leq 80\%$, B for $80\% < p_k \leq 95\%$, and C for $p_k > 95\%$. For more details, visit [here](https://en.wikipedia.org/wiki/ABC_analysis).
 
-## Data-Driven Insights
+## The Problem: EDA insights
 
-### Revenue Analysis: Where the Business Really Makes Money
-- The analysis shows that 19% of SKUs make 83% of total revenue. We call these A-category items. They bring in most of the profits.
-- On the other hand, almost 70% of SKUs make less than 10% of revenue. These C-category items provide little financial return and can cause overstocking.
-- This pattern is common in traditional retail. A study by MIT Sloan School of Management researchers found that many markets have long been dominated by a few top products, where about 80% of sales often come from 20% of products (Brynjolfsson, Hu, and Simester, 2011).
-- We recommend following the example of Amazon in warehouse management: keep plenty of stock and extra safety levels for A-category items to avoid running out of best sellers. For C-category items, cut down on stock levels and order less often. Use tight rules on slow sellers to prevent extra stock and price cuts. These steps will improve cash flow and make better use of warehouse space.
+### Revenue Analysis: Only 19% of Inventory Really Makes Money
 
-### Turnover Ratio: How Efficiently Stock Is Used
-- Revenue alone does not tell the full story of how fast products sell. For example, a cheap item like a sticker may make less money than a bag because its price is low. But if it sells fast, it can still be a good product.
-- The analysis shows that nearly 20% of SKUs have high turnover — they sell quickly and use inventory efficiently.
-- On the other hand, 74% of SKUs sell very slowly. These items stay in the warehouse a long time and hold up money that could be used elsewhere.
-- This is normal in retail. Studies in operations management say most items sell slowly, while only a few move fast and make up most of the turnover (Silver, Pyke, & Peterson, *Inventory Management and Production Planning*, 1998).
-- We suggest copying fast-fashion stores like Zara. They order often for fast sellers to avoid running out and keep very little stock of slow sellers. For high-turnover (A-category) items, order more often. For low-turnover (C-category) items, keep less stock, order less, and use sales or discounts to clear old items. These changes will reduce excess inventory and improve warehouse efficiency.
+- The data shows a clear imbalance: just **19% of SKUs** generate **83%** of total revenue. These **A-category** products are the true profit drivers.
+- At the same time, nearly **70% of SKUs** generate less than **10%** of revenue. These **C-category** items add little value and increase the risk of overstocking and tied-up cash.
+- This is not unusual. [Research from MIT Sloan School of Management](https://www.researchgate.net/publication/227361691_Goodbye_Pareto_Principle_Hello_Long_Tail_The_Effect_of_Search_Costs_on_the_Concentration_of_Product_Sales?referrer=grok.com) confirms that traditional retail typically follows this pattern, where around **80% of sales** come from **20% of products** (Brynjolfsson, Hu, & Simester, 2011).
+- Leading retailers such as Amazon manage this by protecting best sellers—keeping higher stock and safety levels for **A-items** while strictly limiting slow movers. Reducing stock and order frequency for **C-items** lowers excess inventory, improves cash flow, and frees up warehouse space.
 
-## Dashboard Design & Practical Application
+<img width="539" height="549" alt="download" src="https://github.com/user-attachments/assets/da7f584a-1e9d-4dc4-915e-312916371051" />
+
+### Turnover Ratio: Only 20% of Inventory Moves Efficiently
+
+- Revenue alone does not show efficiency. A low-price item like **a sticker** can still be valuable if it sells quickly. The inventory turnover ratio reveals how well stock is converted into cash.
+- The analysis shows that about **20% of SKUs** turn over quickly, using inventory efficiently and supporting healthy cash flow.
+- In contrast, nearly **three-quarters of SKUs** move very slowly, sitting in the warehouse and locking up capital.
+- This pattern is well known in retail operations. [Research](https://books.google.com.hk/books/about/Inventory_Management_and_Production_Plan.html?id=GI5jQgAACAAJ&redir_esc=y) shows that most SKUs sell slowly, while a small group drives most inventory movement (Silver, Pyke, & Peterson, 1998).
+- Successful retailers like Zara act on this insight: they replenish fast sellers frequently and keep minimal stock of slow movers. Applying the same approach—frequent reordering for high-turnover items and tight controls, discounts, or clearance for low-turnover items—reduces excess inventory and improves warehouse efficiency.
+
+<img width="539" height="549" alt="download-2" src="https://github.com/user-attachments/assets/8f986f02-2a20-4d16-a0f8-714902564a9d" />
+
+## The Solution: Dashboard Design & Practical Application
 
 ### Core Objective
 The main goal of the dashboard is to increase the share of high-performing (A-class) inventory while reducing low-performing (C-class) inventory. It provides managers with quick, clear insights for daily decisions.
