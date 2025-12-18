@@ -54,7 +54,7 @@ The main goal of the dashboard is to increase the share of high-performing (A-cl
 
 ### “Good” and “Bad” Product Filters
 
-![This is the default view](https://github.com/user-attachments/assets/5452338a-7198-4325-952f-dfe19d02829a)
+![“Good” and “Bad” SKU Filter](https://github.com/user-attachments/assets/e40b599d-4f7d-4f9d-a3d0-c3e754d31f8d)
 
 A key feature is the Good/Bad filter buttons based on product categories.
 
