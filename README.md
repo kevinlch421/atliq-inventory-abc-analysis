@@ -1,5 +1,7 @@
 # AtliQ Inventory Management Dashboard  
+> A dashboard helps warehouse managers make smart inventory decisions to optimize stock, cut costs, and improve cash flow.
 
+## Table of Contents
 - [1. Project Background](#1-project-background)
 - [2. About the Dataset](#2-about-the-dataset)
 - [3. Analytical Framework: Why ABC Analysis?](#3-analytical-framework-why-abc-analysis)
@@ -15,7 +17,9 @@
 ## 1. Project Background
 Inventory inefficiency is one of the most common challenges in retail operations. Today, many store and warehouse managers still rely heavily on personal experience when deciding **what to reorder, how much to stock, and which products to prioritize**. While experience is valuable, this approach often leads to overstocking items. These issues directly affect **revenue, cash flow by** rising warehousing costs. 
 
-To address this problem, this project introduces a **Tableau inventory management dashboard** built on **ABC analysis**, enabling managers to make **data-driven inventory decisions** instead of relying on intuition alone.
+To address this problem, this project introduces a **Tableau inventory management dashboard** built on **ABC analysis**, enabling managers to make **data-driven inventory decisions** instead of relying on intuition alone. Here is a preview....
+
+![Preview](https://github.com/user-attachments/assets/5c61ac44-7514-4365-865b-ff2b2be47c22)
 
 ## 2. About the Dataset
 The analysis draws from operational data supplied by an **AtliQ IT solutions client**. The dataset contains 34,222 rows covering 2020 to 2021, featuring key performance indicators like **historical sales, inventory levels, turnover metrics, and safety stock details**, which make it suitable for both performance analysis and operational decision support.
