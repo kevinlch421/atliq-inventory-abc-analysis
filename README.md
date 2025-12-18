@@ -68,6 +68,7 @@ These filters help managers protect top performers, fix weak products quickly, a
 ### SKU-Level Performance Analysis
 The second level of filtering is by individual SKU, color-coded for quick understanding. Managers can quickly evaluate individual products by drilling down to the SKU level in the dashboard. Products are color-coded for instant recognition: **blue** for A-class (high performers), **yellow** for B-class (moderate), and **red** for C-class (low performers). Managers no longer need to dig through spreadsheets. The dashboard lets them drill down quickly and see details in this order:
 
+![SKU-Level Performance Filter](https://github.com/user-attachments/assets/f7098063-1c3c-499e-ae94-a7a376f5b320)
 
 | Step | Action on Dashboard                          | What to Look For                                      | Why It Helps Managers                                                                 |
 |------|----------------------------------------------|-------------------------------------------------------|---------------------------------------------------------------------------------------|
